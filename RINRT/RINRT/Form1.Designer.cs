@@ -32,7 +32,6 @@
             this.btnOpen2 = new System.Windows.Forms.Button();
             this.btnOpen3 = new System.Windows.Forms.Button();
             this.btnOpen4 = new System.Windows.Forms.Button();
-            this.btnOpen5 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -82,17 +81,6 @@
             this.btnOpen4.UseVisualStyleBackColor = false;
             this.btnOpen4.Click += new System.EventHandler(this.btnOpen4_Click);
             // 
-            // btnOpen5
-            // 
-            this.btnOpen5.BackColor = System.Drawing.Color.Yellow;
-            this.btnOpen5.Location = new System.Drawing.Point(33, 223);
-            this.btnOpen5.Name = "btnOpen5";
-            this.btnOpen5.Size = new System.Drawing.Size(240, 38);
-            this.btnOpen5.TabIndex = 4;
-            this.btnOpen5.Text = "RMAPN";
-            this.btnOpen5.UseVisualStyleBackColor = false;
-            this.btnOpen5.Click += new System.EventHandler(this.btnOpen5_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -135,7 +123,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnOpen5);
             this.Controls.Add(this.btnOpen4);
             this.Controls.Add(this.btnOpen3);
             this.Controls.Add(this.btnOpen2);
@@ -153,7 +140,6 @@
         private System.Windows.Forms.Button btnOpen2;
         private System.Windows.Forms.Button btnOpen3;
         private System.Windows.Forms.Button btnOpen4;
-        private System.Windows.Forms.Button btnOpen5;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

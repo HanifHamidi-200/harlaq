@@ -44,11 +44,6 @@ namespace RINRT
 
         }
 
-        private void btnOpen5_Click(object sender, EventArgs e)
-        {
-            fSub5 _dlg = new fSub5();
-            _dlg.ShowDialog();
-
-        }
+       
     }
 }
