@@ -83,6 +83,8 @@
             this.picB33 = new System.Windows.Forms.PictureBox();
             this.picB42 = new System.Windows.Forms.PictureBox();
             this.picB43 = new System.Windows.Forms.PictureBox();
+            this.btnQNext1 = new System.Windows.Forms.Button();
+            this.btnQNext2 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picA66)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picA56)).BeginInit();
@@ -702,6 +704,28 @@
             this.picB43.TabIndex = 12;
             this.picB43.TabStop = false;
             // 
+            // btnQNext1
+            // 
+            this.btnQNext1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnQNext1.Location = new System.Drawing.Point(25, 3);
+            this.btnQNext1.Name = "btnQNext1";
+            this.btnQNext1.Size = new System.Drawing.Size(106, 88);
+            this.btnQNext1.TabIndex = 2;
+            this.btnQNext1.Text = "QNext1";
+            this.btnQNext1.UseVisualStyleBackColor = false;
+            this.btnQNext1.Click += new System.EventHandler(this.BtnQNext1_Click);
+            // 
+            // btnQNext2
+            // 
+            this.btnQNext2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnQNext2.Location = new System.Drawing.Point(137, 3);
+            this.btnQNext2.Name = "btnQNext2";
+            this.btnQNext2.Size = new System.Drawing.Size(106, 88);
+            this.btnQNext2.TabIndex = 3;
+            this.btnQNext2.Text = "QNext2";
+            this.btnQNext2.UseVisualStyleBackColor = false;
+            this.btnQNext2.Click += new System.EventHandler(this.BtnQNext2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -709,6 +733,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(897, 545);
+            this.Controls.Add(this.btnQNext2);
+            this.Controls.Add(this.btnQNext1);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -829,6 +855,8 @@
         private System.Windows.Forms.PictureBox picB33;
         private System.Windows.Forms.PictureBox picB42;
         private System.Windows.Forms.PictureBox picB43;
+        private System.Windows.Forms.Button btnQNext1;
+        private System.Windows.Forms.Button btnQNext2;
     }
 }
 
