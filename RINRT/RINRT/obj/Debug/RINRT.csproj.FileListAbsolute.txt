@@ -27,3 +27,4 @@ C:\Users\hanif\Desktop\harlaq\RINRT\RINRT\obj\Debug\RINRT.csproj.GenerateResourc
 C:\Users\hanif\Desktop\harlaq\RINRT\RINRT\obj\Debug\RINRT.csproj.CoreCompileInputs.cache
 C:\Users\hanif\Desktop\harlaq\RINRT\RINRT\obj\Debug\RINRT.exe
 C:\Users\hanif\Desktop\harlaq\RINRT\RINRT\obj\Debug\RINRT.pdb
+C:\Users\hanif\Desktop\harlaq\RINRT\RINRT\obj\Debug\RINRT.fFormname.resources

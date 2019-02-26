@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="fFormname.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fFormname.Designer.cs">
+      <DependentUpon>fFormname.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fFormname.resx">
+      <DependentUpon>fFormname.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -114,6 +123,47 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="icons1\F A1.png" />
+    <Content Include="icons1\F A2.png" />
+    <Content Include="icons1\F A3.png" />
+    <Content Include="icons1\F A4.png" />
+    <Content Include="icons1\F A5.png" />
+    <Content Include="icons1\F A6.png" />
+    <Content Include="icons1\F A7.png" />
+    <Content Include="icons1\F A8.png" />
+    <Content Include="icons1\F B1.png" />
+    <Content Include="icons1\F B10.png" />
+    <Content Include="icons1\F B11.png" />
+    <Content Include="icons1\F B12.png" />
+    <Content Include="icons1\F B13.png" />
+    <Content Include="icons1\F B2.png" />
+    <Content Include="icons1\F B3.png" />
+    <Content Include="icons1\F B4.png" />
+    <Content Include="icons1\F B5.png" />
+    <Content Include="icons1\F B6.png" />
+    <Content Include="icons1\F B7.png" />
+    <Content Include="icons1\F B8.png" />
+    <Content Include="icons1\F B9.png" />
+    <Content Include="icons1\F C1.png" />
+    <Content Include="icons1\F C2.png" />
+    <Content Include="icons1\F C3.png" />
+    <Content Include="icons1\F C4.png" />
+    <Content Include="icons1\F C5.png" />
+    <Content Include="icons1\F C6.png" />
+    <Content Include="icons1\F category1.png" />
+    <Content Include="icons1\F category2.png" />
+    <Content Include="icons1\F category3.png" />
+    <Content Include="icons1\F category4.png" />
+    <Content Include="icons1\F D1.png" />
+    <Content Include="icons1\F D2.png" />
+    <Content Include="icons1\F D3.png" />
+    <Content Include="icons1\F D4.png" />
+    <Content Include="icons1\F D5.png" />
+    <Content Include="icons1\F D6.png" />
+    <Content Include="icons1\F NullGate.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
